@@ -1,0 +1,5 @@
+{
+  "name": "AISTVM Windows VM host",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  "postStartCommand": "nohup bash .aistvm/setup.sh >/dev/null 2>&1 &"
+}
